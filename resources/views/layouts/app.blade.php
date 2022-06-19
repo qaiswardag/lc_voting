@@ -6,8 +6,8 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/apple-touch-icon.png">
         <link rel="manifest" href="/site.webmanifest">
 
         <title>{{ $title ?? 'Laracasts Voting' }}</title>
@@ -24,7 +24,7 @@
     </head>
     <body class="font-sans bg-gray-background text-gray-900 text-sm">
         <header class="flex flex-col md:flex-row items-center justify-between px-8 py-4">
-            <a href="/"><img src="{{ asset('img/logo.svg') }}" alt="logo"></a>
+            <a href="/">Logo</a>
             <div class="flex items-center mt-2 md:mt-0">
                 @if (Route::has('login'))
                     <div class="px-6 py-4">
