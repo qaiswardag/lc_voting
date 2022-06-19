@@ -1,8 +1,4 @@
-## Build a Voting App
-
-Source Code for **"Build a Voting App"** series on Laracasts: https://laracasts.com/series/build-a-voting-app
-
-Each episode has a corresponding commit in git, so checkout the commit history for that. If you would like to go back to a particular point, you can do a `git checkout <hash_of_commit>`.
+## Voting App
 
 ## Installation
 
